@@ -9,10 +9,10 @@
  */
 int getSquare(int num)
 {
-	if (sizeof(num == sizeof(int))
+	if (sizeof(num) == sizeof(int))
 			{
-			return (num ** 2);
+			return (num * num);
 			}
-			printf("PLease enter a valid number!\n");
-			return (-1);
-			}			
+	printf("PLease enter a valid number!\n");
+	return (-1);
+}			
