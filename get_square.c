@@ -9,7 +9,7 @@
  */
 int getSquare(int num)
 {
-	if (sizeof(num === sizeof(int))
+	if (sizeof(num == sizeof(int))
 			{
 			return (num ** 2);
 			}
